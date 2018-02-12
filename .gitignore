@@ -1,4 +1,8 @@
 *.log
+*.aux
+*.out
+*.gz
+*.bak
 /.ipynb_checkpoints/
 *.pyc
 .DS_Store
