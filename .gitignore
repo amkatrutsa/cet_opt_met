@@ -3,6 +3,6 @@
 *.out
 *.gz
 *.bak
-/.ipynb_checkpoints/
+.ipynb_checkpoints/
 *.pyc
 .DS_Store
