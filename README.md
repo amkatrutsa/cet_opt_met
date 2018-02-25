@@ -1,5 +1,6 @@
 # Материалы курса "Методы оптимизации"
 
+0. [Python tutorial](./Python_tutorial.ipynb)
 1. [Введение](./01-Intro/01-Intro.ipynb)
 2. [Безградиентные методы, часть 1](./02-LocalSearch/02-LocalSearch.ipynb)
 3. [Безградиентные методы, часть 2]()
