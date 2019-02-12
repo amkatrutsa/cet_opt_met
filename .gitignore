@@ -6,6 +6,9 @@
 .ipynb_checkpoints/
 *.pyc
 .DS_Store
+__pycache__/
 *.nav
 *.snm
 *.toc
+*.bbl
+*.blg
