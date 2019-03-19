@@ -5,3 +5,4 @@
 2. [Выпуклые множества](./02-Convexity/convex_sets.pdf), [введение в векторное дифференцирование](./02-Convexity/mat_calc.pdf)
 3. [Выпуклые функции](./02-Convexity/convex_func.pdf)
 4. [Условия оптимальности](./03-KKT/opt_cond.pdf)
+5. [Введение в теорию двойственности](.04-Duality/duality.pdf)
