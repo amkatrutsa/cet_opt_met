@@ -37,7 +37,7 @@
 \vspace{-5mm}
 \begin{equation*}
 \begin{split}
-& \min\limits_{x \in \frakD} f(x) = p^*\\
+& \min\limits_{x \in \frakD} f_0(x) = p^*\\
 \text{s.t. } & g_i(x) = 0, \; i = 1,\ldots,m\\
 & h_j(x) \leq 0, \; j = 1,\ldots, p
 \end{split}
@@ -47,7 +47,7 @@
 \begin{block}{Лагранжиан}
 \vspace{-2mm}
 \begin{equation*}
-L(x, \blambda, \bmu) = f(x) + \sum\limits_{i=1}^m\lambda_i g_i(x) + \sum\limits_{j=1}^p \mu_j h_j(x)
+L(x, \blambda, \bmu) = f_0(x) + \sum\limits_{i=1}^m\lambda_i g_i(x) + \sum\limits_{j=1}^p \mu_j h_j(x)
 \vspace{-2mm}
 \end{equation*}
 \end{block}
@@ -163,9 +163,9 @@ d^* \leq p^*.
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Условия Слейтера}
-\begin{block}{Теорема}
-Если задача выпукла и существует $x$, лежащий внутри допустимой области, т.е. ограничения типа неравенств выполнены как строгие неравенства, то выполнено свойство сильной двойственности.
+\begin{frame}{Условие Слейтера}
+\begin{block}{Условие Слейтера}
+Если существует $x$, лежащий внутри допустимой области, т.е. ограничения типа неравенств выполнены как строгие неравенства, то выполняется условие Слейтера.
 \end{block}
 
 \begin{itemize}
@@ -204,12 +204,12 @@ $
 \end{frame}
 
 \begin{frame}{Условия дополняющей нежёсткости}
-Пусть $\bx^*$ и $(\bmu^*, \blambda^*)$ решения прямой и двойственной задачи. То есть
+Пусть $\bx^*$ и $(\bmu^*, \blambda^*)$ решения прямой и двойственной задачи и выполнена сильная двойственность. То есть
 \begin{equation*}
 \begin{split}
-& f(\bx^*) = g(\bmu^*, \blambda^*) = \inf\limits_{\bx} L(\bx, \blambda, \bmu) \leq \\
+& f(\bx^*) = g(\bmu^*, \blambda^*) = \inf\limits_{\bx} L(\bx, \blambda^*, \bmu^*) \leq \\
 & f(\bx^*) + \sum\limits_{i=1}^m\lambda^*_i g_i(\bx^*) + \sum\limits_{j=1}^p \mu^*_j h_j(\bx^*) \leq\\
-& f(\bx^*), \qquad \bmu \geq 0 
+& f(\bx^*), \qquad \bmu^* \geq 0 
 \end{split}
 \end{equation*}
 
@@ -257,12 +257,14 @@ $
 Если задача выпукла и для точек $\bx^*$,  $(\bmu^*, \blambda^*)$ выполнены условия ККТ, то эти точки решения прямой и двойственной задачи с нулевым зазором двойственности
 \end{block}
 
+\begin{block}{План доказательства}
 \begin{enumerate}
 \item $L$ выпуклая функция
 \item Стационарность $L$ -- достаточное условие минимума
 \item Зазор двойственности равен 0
 \item Оптимальность прямых и двойственных переменных
 \end{enumerate}
+\end{block}
 
 \begin{block}{Итог для выпуклых задач}
 \begin{enumerate}
