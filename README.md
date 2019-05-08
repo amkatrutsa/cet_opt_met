@@ -9,3 +9,4 @@
 6. Введение в численные методы оптимизации и градиентный спуск ([теория](./05-IntroGD/lecture.pdf) и [практика](https://nbviewer.jupyter.org/github/amkatrutsa/cet_opt_met/blob/master/05-IntroGD/seminar.ipynb))
 7. [Метод сопряжённых градиентов](https://nbviewer.jupyter.org/github/amkatrutsa/cet_opt_met/blob/master/06-AccGD/cg.ipynb)
 8. [Ускоренные градиентные методы](https://nbviewer.jupyter.org/github/amkatrutsa/cet_opt_met/blob/master/06-AccGD/AccGrad.ipynb)
+9. Метод Ньютона и квазиньютоновские методы ([теория](./07-Newton/lecture.pdf), [практика 1](./07-Newton/Seminar_Newton.ipynb), [практика 2](./07-Newton/Seminar_QuasiNewton.ipynb))
