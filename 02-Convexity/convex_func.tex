@@ -85,7 +85,7 @@ f(\by) \geq f(\bx) + \left( \nabla f(\bx) \right)^{\T} (\by - \bx)
 \end{block}
 
 \begin{block}{Ограничение на прямую}
-Функция $f: X \rightarrow \bbR$ выпукла тогда и только тогда, когда $X$ выпуклое множество и выпукла функция $g(t) = f(\bx + t\bv)$ на множестве $\{ t | \bx + t\bv \in X \}$ для всех $\bx \in X$ и $\bv \in X$.
+Функция $f: X \rightarrow \bbR$ выпукла тогда и только тогда, когда $X$ выпуклое множество и выпукла функция $g(t) = f(\bx + t\bv)$ на множестве $\{ t \mid \bx + t\bv \in X \}$ для всех $\bx \in \mathrm{dom}(f)$ и $\bv \in \mathbb{R}^n$.
 \end{block}
 
 \end{frame}
@@ -101,7 +101,7 @@ f(\by) \geq f(\bx) + \left( \nabla f(\bx) \right)^{\T} (\by - \bx) + \frac{m}{2}
 \end{block}
 
 \begin{block}{Дифференциальный критерий второго порядка}
-Непрерывная и дважды дифференцируемая функция $f$ сильно выпукла с константой $m$ $\Leftrightarrow$ она определена на выпуклом множестве $X$ и $\forall \bx \in \text{\bf relint}(X) \subset \bbR^n$ выполнено:
+Непрерывная и дважды дифференцируемая функция $f$ сильно выпукла с константой $m$ $\Leftrightarrow$ она определена на выпуклом множестве $X$ и $\forall \bx \in  \bbR^n$ выполнено:
 \vspace{-2mm}
 \[
 \nabla^2 f(\bx) \succeq m\bI.
