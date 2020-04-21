@@ -12,3 +12,4 @@ __pycache__/
 *.toc
 *.bbl
 *.blg
+*.vrb
