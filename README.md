@@ -1,9 +1,9 @@
 # Материалы курса "Методы оптимизации"
 
 0. [Python tutorial](./Python_tutorial.ipynb)
-1. [Введение](https://nbviewer.jupyter.org/github/amkatrutsa/cet_opt_met/blob/master/01-Intro/slides.pdf) + [демо](https://nbviewer.jupyter.org/github/amkatrutsa/cet_opt_met/blob/master/01-Intro/demos.ipynb)
-2. [Выпуклые множества](./02-Convexity/convex_set_theory.pdf)
-3. [Отделимость](), [введение в векторное дифференцирование](./02-Convexity/mat_calc.pdf)
+1. [Введение](./Spring2021/01-Intro/slides.pdf)
+2. [Выпуклые множества](./Spring2021/02-ConvexSet/convex_set_theory.pdf)
+3. [Отделимость и проекция](./Spring2021/03-ProjMatCalc/sep_proj.pdf), [введение в векторное дифференцирование](./Spring2021/03-ProjMatCalc/mat_calc.pdf), [автоматическое диференцирование с JAX](./Spring2021/03-ProjMatCalc/jax_autodiff_tutorial.ipynb)
 4. [Выпуклые функции](./02-Convexity/convex_func.pdf)
 5. [Условия оптимальности](./03-KKT/opt_cond.pdf)
 6. [Введение в теорию двойственности](./04-Duality/duality.pdf)
