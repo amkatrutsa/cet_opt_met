@@ -4,7 +4,7 @@
 1. [Введение](./Spring2021/01-Intro/slides.pdf)
 2. [Выпуклые множества](./Spring2021/02-ConvexSet/convex_set_theory.pdf)
 3. [Отделимость и проекция](./Spring2021/03-ProjMatCalc/sep_proj.pdf), [введение в векторное дифференцирование](./Spring2021/03-ProjMatCalc/mat_calc.pdf), [автоматическое диференцирование с JAX](./Spring2021/03-ProjMatCalc/jax_autodiff_tutorial.ipynb)
-4. [Выпуклые функции](./02-Convexity/convex_func.pdf)
+4. [Выпуклые функции](./Spring2021/04-ConvexFunc/lecture4.pdf)
 5. [Условия оптимальности](./03-KKT/opt_cond.pdf)
 6. [Введение в теорию двойственности](./04-Duality/duality.pdf)
 7. Введение в численные методы оптимизации и градиентный спуск ([теория](./05-IntroGD/lecture.pdf) и [практика](https://nbviewer.jupyter.org/github/amkatrutsa/cet_opt_met/blob/master/05-IntroGD/seminar.ipynb))
